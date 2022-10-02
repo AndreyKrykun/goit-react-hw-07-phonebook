@@ -9,14 +9,14 @@ export const Overlay = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.8);
-  z-index: 1200;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 999;
 `;
 
 export const ModalWindow = styled.div`
   position: relative;
-  background-color: #fff;
-  border-radius: 5px;
-  width: 600px;
+  background-color: #c9edf5;
+  border-radius: 20px;
+  width: 500px;
   height: 300px;
 `;

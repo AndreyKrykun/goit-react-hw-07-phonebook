@@ -13,7 +13,4 @@ export const filterSlice = createSlice({
 });
 
 export const { filterChange } = filterSlice.actions;
-
-// // SELECTORS
-
 export const getFilterValue = state => state.filter.filter;
